@@ -19,7 +19,7 @@ from netmiko.cisco import (
     CiscoIosTelnet,
     CiscoIosSerial,
 )
-from netmiko.cisco import CiscoNxosSSH, CiscoNxosFileTransfer
+from netmiko.cisco import CiscoNxosSSH, CiscoNxosTelnet, CiscoNxosFileTransfer
 from netmiko.cisco import CiscoS300SSH
 from netmiko.cisco import CiscoTpTcCeSSH
 from netmiko.cisco import CiscoWlcSSH
