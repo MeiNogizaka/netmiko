@@ -228,6 +228,8 @@ class CiscoBaseConnection(BaseConnection):
 class CiscoSSHConnection(CiscoBaseConnection):
     pass
 
+class CiscoTelnetConnection(CiscoBaseConnection):
+    pass
 
 class CiscoFileTransfer(BaseFileTransfer):
     pass
