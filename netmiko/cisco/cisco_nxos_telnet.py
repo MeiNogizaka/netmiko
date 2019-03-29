@@ -3,11 +3,11 @@ from __future__ import unicode_literals
 import re
 import time
 import os
-from netmiko.cisco_base_connection import CiscoSSHConnection
+from netmiko.cisco_base_connection import CiscoTelnetConnection
 from netmiko.cisco_base_connection import CiscoFileTransfer
 
 
-class CiscoNxosTelnet(CiscoSSHConnection):
+class CiscoNxosTelnet(CiscoTelnetConnection):
     def session_preparation(self):
         """Prepare the session after the connection has been established."""
         self._test_channel_read(pattern=r"[>#]")
