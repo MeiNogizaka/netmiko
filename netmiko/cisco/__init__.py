@@ -19,6 +19,7 @@ __all__ = [
     "CiscoIosTelnet",
     "CiscoAsaSSH",
     "CiscoNxosSSH",
+    CiscoNxosTelnet,
     "CiscoXrSSH",
     "CiscoWlcSSH",
     "CiscoS300SSH",
